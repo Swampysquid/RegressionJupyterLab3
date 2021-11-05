@@ -13,12 +13,15 @@ basis, when data is contingent on 2 variables. The
 Scatterplots in this project were contingent on Temperature v. Height,
 Rain v. Height, Altitude v. Height, and Site v. Height. The Scatterplots
 have blue dots representing a data point, with height always being the Y-axis
-and the other variable being on the X-Axis.  	
+and the other variable being on the X-Axis. Scatterplots were constructed using the
+makeScatter() function.
 </p>
 <h2>Line of Best Fit</h2>
 The Line of Best Fit is applied to the Scatterplots. This line is the
 line of least variation from the points, therefore it fits the points best.
-It is represented on the Scatterplots as a red line going through the points. 
+It is represented on the Scatterplots as a red line going through the points.
+The Line of Best Fit was made using the getLineBestFit() function, and subsequently
+added to the ScatterPlot using the makeScatter() function.
 <img src="https://github.com/Swampysquid/RegressionJupyterLab3/blob/main/ScatterTemp.JPG?raw=true" width="500" height="400">
 <img src="https://github.com/Swampysquid/RegressionJupyterLab3/blob/main/ScatterRain.JPG?raw=true" width="500" height="400">
 <img src="https://github.com/Swampysquid/RegressionJupyterLab3/blob/main/ScatterAlt.JPG?raw=true" width="500" height="400">
@@ -38,7 +41,7 @@ can be explained by the independent variable. Essentially, the R2 will
 see how strong of a correlation there is (if any) with the line of best
 fit compared to the actual values. Based on the R Squared Values below,
 rain would have the strongest correlation to height of the four independent
-variables listed.
+variables listed. It is created in the code using the getRSquared() function.
 </p>
 <img src= "https://github.com/Swampysquid/RegressionJupyterLab3/blob/main/RSquared.JPG?raw=true" width = "300" height = "200">
 <a href="https://github.com/Swampysquid/RegressionJupyterLab3/blob/main/Regression.ipynb"><h2>Link to Github Code</h2></a>
